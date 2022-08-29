@@ -47,6 +47,9 @@
 			isa = PBXGroup;
 			children = (
 				04C570AE28BA156E00E36F17 /* ChatRoomApp */,
+				04C570CB28BD13CD00E36F17 /* Model */,
+				04C570CD28BD142C00E36F17 /* View */,
+				04C570CC28BD141100E36F17 /* Controllers */,
 				04C570AD28BA156E00E36F17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,15 +68,36 @@
 				04C570AF28BA156E00E36F17 /* AppDelegate.swift */,
 				04C570B128BA156E00E36F17 /* SceneDelegate.swift */,
 				04C570B528BA156E00E36F17 /* Main.storyboard */,
-				04C570C928BA18FA00E36F17 /* Song.swift */,
-				04C570C528BA161B00E36F17 /* BoyTableViewCell.swift */,
-				04C570C728BA163400E36F17 /* GirlTableViewCell.swift */,
-				04C570C328BA15B000E36F17 /* ChatTableViewController.swift */,
 				04C570B828BA157000E36F17 /* Assets.xcassets */,
 				04C570BA28BA157000E36F17 /* LaunchScreen.storyboard */,
 				04C570BD28BA157000E36F17 /* Info.plist */,
 			);
 			path = ChatRoomApp;
+			sourceTree = "<group>";
+		};
+		04C570CB28BD13CD00E36F17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C570C928BA18FA00E36F17 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04C570CC28BD141100E36F17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C570C328BA15B000E36F17 /* ChatTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04C570CD28BD142C00E36F17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C570C728BA163400E36F17 /* GirlTableViewCell.swift */,
+				04C570C528BA161B00E36F17 /* BoyTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
